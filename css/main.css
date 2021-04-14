@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-size: 15;
+
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+}
+a:hover{
+    color: hotpink;
+}
+.navbar{
+    background: white;
+    min-height: 10vh;
+    padding: 2px 3px;
+}
+.navbar .navbar-brand{
+    padding: 2px 0;
+    display: block;
+
+}
+.navbar-toggler{
+    background: pink;
+    border: none;
+    padding: 10px 6px;
+    outline:none;
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+.navbar-toggler span+span{
+    margin-top: 4px;
+    width: 10px;
+    margin-left: 4px;
+}
+.navbar-toggler span+span+span{
+    width: 18px;
+    margin-left: 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 2rem 1.2rem;
+    position: relative;
+    font-size: 1.5rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    border-bottom: 4px solid deeppink;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+border-bottom: 4px solid deeppink;
+}
+/*
+.carousel-item{
+    height: 50rem;
+    background: grey;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+.my-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+*/
+.my_Sec1{
+    height: 40rem;
+}
